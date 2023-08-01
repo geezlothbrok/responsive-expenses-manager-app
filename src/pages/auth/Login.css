@@ -1,64 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
-
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
+    padding: 10px;
 }
 
-img {
-    width: 600px;
-    margin-top: 50px;
-}
-
-.image-box {
+.imageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    max-width: 50%;
+}
+.imageContainer img {
+width: 500px;    
+margin-left: 2rem;
+margin-top: 2rem;
 }
 
-.login-form {
-    margin-top: calc(-250px);
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-.login-form .login .login-head {
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-weight: bold;
-}
-
-input {
-    display: block;
-    height: 2rem;
-    width: 50vh;
-    border-color: transparent;
-    text-align: center;
-    background: #EBECF0;
-    margin-bottom: 20px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#login {
-    background: #FE725B;
-    width: 51vh;
-    height: 2.1rem;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: bold;
-    border: none;
-}
-
-.alt {
-text-align: center;
-margin: 1.5rem 0px;
-font-weight: bold;
-}
-
-Link {
-    display: inline-flex;
+.loginForm {
+    display: flex;
+    max-width: 50%;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: end;
 }
