@@ -15,8 +15,9 @@
 
 .logo-text {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 .nav-links {
   display: flex;
